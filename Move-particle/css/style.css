@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.full{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+
+/* Common css end here */
+.full-parallax{
+    position: absolute;
+    overflow: hidden;
+    height: 130vh;
+    width: 100%;
+    background: #323232;
+}
+
+.parallax-top{
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+    background-color:#323232;
+}
+.logo h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 20%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+.nav-bar{
+    text-transform: uppercase;
+    width: 80%;
+    float: left;
+    text-align: right;
+}
+.nav-bar ul li{
+    display: inline-block;
+}
+.nav-bar ul li a{
+    padding: 0 30px 30px 30px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: 0.7s;
+}
+.nav-bar ul li a:hover{
+    border-color: #fff;
+}
+
+/* Js class */
+
+.sticky{
+    position: fixed;
+    background-color: #fff;
+    color: #323232;
+    transition: 1.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+.sticky ul li a{
+    color: #444;
+    font-size: 12px;
+}
+.sticky h3{
+    color: red;
+    font-size: 12px;
+}
+.sticky ul li a:hover{
+    border-color: transparent;
+    color: red;
+}
+
+
+/* End js class*/
+.object1{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    opacity: 0.5;
+    -webkit-filter: blur(4px);
+    transform: rotate(20deg);
+}
+.object2{
+    position: absolute;
+    top: 220px;
+    left: -50px;
+}
+.object3{
+    position: absolute;
+    left: 950px;
+    top: 400px;
+    opacity: 0.5;
+    -webkit-filter: blur(3px);
+    transform: rotate(-20deg);
+}
+
+#layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+#msg{
+    font-family: arial;
+    font-size: 70px;
+    color: #FAFAFA;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    line-height: 60px;
+    border-left: 2px solid #FAFAFA;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#zero{
+    font-size: 40px;
+    letter-spacing: 31px;
+}
+
+
